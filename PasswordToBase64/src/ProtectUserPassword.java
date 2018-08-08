@@ -14,10 +14,10 @@ public class ProtectUserPassword {
 	        
 	        // Protect user's password. The generated value can be stored in DB.
 	        String mySecurePassword = PasswordUtils.generateSecurePassword(myPassword, salt);
-	        
+	        //password @ry@n8740
 	        // Print out protected password 
-	        //dBkJxnkR1IJHvv7iiTYwBnCEyhDIDnvMkq/2Xtsu+uc=
-	        //salt 6B4Fkl8sYISUbunGH5QPMuFXVfrm4Q
+	        //jLqAf7zGaoi150mkUr5A23L4Izy0ZsJSSRkAZJEAiMA=
+	        //salt p4NMi8v5r8loc5Eb3t6Z7GnGtGlO4f
 	        System.out.println("My secure password = " + mySecurePassword);
 	        System.out.println("Salt value = " + salt);
 	    }

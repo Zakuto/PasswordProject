@@ -9,10 +9,10 @@ public class VerifyProvidedPassword {
 	        String providedPassword = scanner.nextLine();
 	                
 	        // Encrypted and Base64 encoded password read from database
-	        String securePassword = "sWsmKxm7ZHEZeUMTNzaarI36ASVOeg9Ub8tavK3pnMo=";
+	        String securePassword = "jLqAf7zGaoi150mkUr5A23L4Izy0ZsJSSRkAZJEAiMA=";
 	        
 	        // Salt value stored in database 
-	        String salt = "Cjqwu0cL2uwvaXy4Jqtcc2Rahm3l6Z";
+	        String salt = "p4NMi8v5r8loc5Eb3t6Z7GnGtGlO4f";
 	        
 	        boolean passwordMatch = PasswordUtils.verifyUserPassword(providedPassword, securePassword, salt);
 	        
